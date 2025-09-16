@@ -1,3 +1,158 @@
---TYB : RunoVN 
--- https://discord.gg/t9ygR5rm
-local a,b,c,d,e,f,g,h,i=(function(a,b)return(a+b)end),(function(a,b)return(a-b)end),(function(a,b)return(a*b)end),(function(a,b)return(a/b)end),(function(a,b)return(a%b)end),(function(a,b)return(a..b)end),(function(a,b)return(a==b)end),(function(a,b)return(a~=b)end),(function(a,...)return a(...)end)return(function(j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,A,B,C,D,E,F,G,H,I,J)local K=(q(1))local L=(229)local M=(256)local N,O=({}),({})for P=0,M-1 do local Q=w(P)N[P]=Q;O[P]=Q;O[Q]=P end;local function v74(P)local Q=y;local R=v;local S=w;local T=s;P=Q(P,'z','!!!!!')P=Q(P,'[%s\r\n]','')local U=#P;local V={}local W=1;while W<=U do local X=U-W+1;local Y=(X<5)and X or 5;local Z=0;for _=1,5 do local aa=0;if _<=Y then aa=R(P,W+_-1)-33 end;Z=Z*85+aa end;local aa=4;if Y<5 then aa=Y-1 end;for _=3,0,-1 do if aa>0 then V[#V+1]=S(o(k(Z,_*8),255))aa=aa-1 end end;W=W+5 end;return T(V)end;local aa,P=v74([==[_C#<`/1^c$!!!!r&Sruuz5QG4)1^!dY@g`SV?7Z'V!!%Pj#])$l!!!!a)&[6Az^mGsX2$Es[E"`9^!*hJh!!%*[!?2jd#8]]`"98F2)\!BZ2?j-]EsDmg#74$Sz5S=]G/-#YM!!#_&Cb,Pd!!#8')f.&*!!!"L_ut$8!rr=B"rC#cz^lf=H/-#YM!!$7DE&7[t!+uKE#Y?QI!!!"L_?+O)z!([B3/-#YM!!$.>Cb,Pd!!!!)88pEi!!$I9*Cg,O/-#YM!5Op;Cb,Pd!!!")*H3h<!!$IH(EGh""TSOA!ZM@_6kCI@!(\(0"9V41!+-<N#8%%[=&0D.?U>SC+Wi3Y1/(se(4.S4z<>B=$zJAh\./-#YM!'hA<Cb,Pd!!!!e"E64%!!$jE'c.6G/-#YM!5Oj7Cb,Pd!!%Q)*,mhA!!#PP!!G5)&O\Ye!!$g;%L!XR"rddR=#:$[!(RlDD@KJD!!<W?!!!]I!/-(.!s8N'%g`Fc,QIfH-R8Zl'GLNK-RA`m":YY=&/"sC":bb>,pWg)$31D6!<<9,*to%a*ZP.["q(kA!s&B%"pb\>!<<T>,;0H+!<<*"(*!Y^!<<*""Uk\<!<<*"(ENk`!<<*"!<E0$!<<*"!<E0$!<<*"*Zb:_!WW3#$OZq9'c-iM"9ef,)]A_X)&NAU#RUP3"9no.#RLP6)&iVY#RUP3":##0!WrN,)&`SY#RUP3"98Q*%M&[F)'&ha!X&N)!!!WJ"TSW,!!**#!Wi?)"9JQ)!!!B9"p-%s!!!*)"p"`)"pPPC"p+r5!!!-(#6kD6!s8N'&fM#U"U+o5#QOi0!!e12!?r]f!"ftO6:(YP"$o6R!#-+IKRsCR,QIff2\lDp!!!*&!<<*6'EA1[-3+#K%1*(R)ZTj@%LN7C$31&/%grC>!t,JS&dna_*<6'D$4HtV*rl9F$Om.J%0-A4#S$nL&HDe8#nI(B"TSN,((^Nj,6.]J(D-]N!<<*('G:HK!!!!''b^WR"TSN,&ekBd)#sX@',:QR"TSN,&/G<M"onW-&JkKf)#sX@*Z+q`"TSN,*uP+r'`\4<*#\kg$ig83*?,%^!<<*()B8ek&-)\7)]\u&+ohTI(`i_b$NL/2)'8nu(]XO?-6N@*'EA+;-QrNq"98E+,U*6i!$WU3-jp%V!!!!-"UP8Y,QIfY'EA1A#QOi-%1*%X+UA>\!"&c5$31&/#Rg_8!t5SU'at-R$ig83$Om.]+92BG#S$nJ'*&":#nI(R'`\4<((^Ne*WQ0E(D-]W%KHJ5'G:HW$ig83'b^TK!#$"j0+7j^!!!!7*!u]I!!!!&$jcq8!!rrR)$U0d+ohTW'EB@&!!EE)z!!NN+!!<6'!!!]I!!**#!!!$#!!**#!!"&]!!**#!!!`J!<E3$!!!QB!<N<&z!Wi?%/1^c$!!!#gcOV]0!!!rW!!!*;'EA+I'EA.7!!!!"!<<-$!!33D(^C'B!!!!#$4$Y5!!**%$OHh7!!33'#RUS5!!<<)#n$b7!!!!@'+=mB!!WWL&e+jB!!WWL&IngB!"KJ`-jp%V!!!!&%gi=<!!**B'FOpB!"0/Z.L?+V!!!!&%0ut@#R:SD%fuhG&HDeF'EEc:!WW3;)Zp`e!!!*4'*&"H'EA.7!!!!=*Wc?C!!!!?*WQ6D!<<*("9JW+!!!!'"Tnc+!!!!A,Qn/M!!!!'!sO=?&HDeO*WlHF!!!*%!WW37'EAXS!Wi?%z!!WW-!!<6'!!!]I!!**#!!!$#!!**#!!"&]!!WQ-z&eG*E!!!!"!<E3$!!!93!W`<%!!!QC!WrN+!s&B%!<E0#0Js"6!,rSQ%00uI!!!*$!rr<8'EA.7!!!!"!<<3&!WW37'EA.7!!!!?*WQ6C!!!!%"T\W)!!!!#!!30%!!**%!<W?'!!<<0#Q]U4!<E3$!"fbC!Wi?%!s&H'!#-+I"9\])!!!!$!rr<T2$Es[AJY=e*C;I]!!"YS/-#YM!!)N72@0?`!s/K'!#-+I!<E0#!$30]!Wi?%!!EE)!<E0#!!36'!WrH'!!WQ-!WW9%!!WT/!<E0&"!\uj!<E0#!"989!<E0#!!**#"9\])!!!!]==]),1;local function v79(Q,R,S)if(S)then local T=(Q/2^(R-1))%2^((S-1)-(R-1)+1)return(T-(T%1))else local T=2^(R-1)return(((Q%(T+T)>=T)and(1))or(0))end end;local Q="#"local function v81(...)return({...}),F(Q,...)end;local function v82(...)local function v111(...)local R={}local S={}local T={}local U,V,W,X=i(v,aa,P,P+3)U=i(p,U,L)L=U%256;V=p(V,L)L=V%256;W=p(W,L)L=e(W,256)X=p(X,L)L=e(X,256)P=a(P,4)local Y=(a((c(X,16777216)),(W*65536))+(V*256)+U)for Z=0,Y-1,1 do local _=p(i(v,aa,P,P),L)L=_%256;P=(a(P,1))if(_==20)then local ab=p(v(aa,P,P),L)L=ab%256;P=(P+1)T[Z]=(ab~=0)elseif(_==62)then while(true)do local ab,ac,ad,ae=i(v,aa,P,P+3)ab=p(ab,L)L=ab%256;ac=p(ac,L)L=e(ac,256)ad=p(ad,L)L=e(ad,256)ae=p(ae,L)L=ae%256;P=P+4;local af=((ae*16777216)+(ad*65536)+(ac*256)+ab)T[Z]=x(aa,P,a(P,af)-1)P=a(P,af)break end elseif(_==44)then while(true)do local ab,ac,ad,ae=i(v,aa,P,P+3)ab=i(p,ab,L)L=e(ab,256)ac=p(ac,L)L=ac%256;ad=p(ad,L)L=ad%256;ae=p(ae,L)L=e(ae,256)P=P+4;local af=(a((ae*16777216),(c(ad,65536)))+(ac*256)+ab)local ag,ah,ai,aj=i(v,aa,P,P+3)ag=p(ag,L)L=e(ag,256)ah=p(ah,L)L=ah%256;ai=p(ai,L)L=ai%256;aj=p(aj,L)L=aj%256;P=P+4;local ak=(a((aj*16777216)+(c(ai,65536))+(c(ah,256)),ag))local al=1;local am=(i(v79,ak,1,20)*(4294967296))+af;local an=i(v79,ak,21,31)local ao=((-1)^v79(ak,32))if(an==0)then if(am==0)then T[Z]=(c(ao,0))break else an=1;al=0 end elseif(an==2047)then T[Z]=(am==0)and(ao*(d(1,0)))or(ao*(0/0))break end;T[Z]=I(ao,an-1023)*(a(al,(am/(4503599627370496))))break end elseif(_==48)then while(true)do local ab,ac,ad,ae=i(v,aa,P,a(P,3))ab=i(p,ab,L)L=ab%256;ac=p(ac,L)L=e(ac,256)ad=i(p,ad,L)L=ad%256;ae=i(p,ae,L)L=e(ae,256)P=a(P,4)local af=((ae*16777216)+(c(ad,65536))+(ac*256)+ab)if(g(af,0))then T[Z]=('')break end;if(af>5000)then local ag,ah=(''),(i(x,aa,P,P+af-1))P=a(P,af)for ai=1,#ah,1 do local aj=i(p,v(i(x,ah,ai,ai)),L)L=aj%256;ag=f(ag,O[aj])end;T[Z]=ag else local ag,ah=(''),({v(aa,P,P+af-1)})P=P+af;for ai,aj in C(ah)do local ak=i(p,aj,L)L=e(ak,256)ag=f(ag,O[ak])end;T[Z]=ag end;break end else T[Z]=nil end end;local ab,ac,ad,ae=i(v,aa,P,P+3)ab=p(ab,L)L=ab%256;ac=i(p,ac,L)L=ac%256;ad=i(p,ad,L)L=ad%256;ae=p(ae,L)L=e(ae,256)P=P+4;local af=((ae*16777216)+(c(ad,65536))+(ac*256)+ab)for ag=0,b(af,1),1 do R[ag]={}end;for ag=0,b(af,1),1 do local ah=p(i(v,aa,P,P),L)L=e(ah,256)P=(a(P,1))if(h(ah,0))then ah=ah-1;local ai,aj,ak,al,am,an=0,0,0,0,0,0;local ao=i(v79,ah,1,3)if(ao==6)then elseif(g(ao,2))then local Z,_,ap,aq=i(v,aa,P,P+3)Z=i(p,Z,L)L=Z%256;_=p(_,L)L=e(_,256)ap=i(p,ap,L)L=e(ap,256)aq=p(aq,L)L=aq%256;P=P+4;local ar=((aq*16777216)+(ap*65536)+(_*256)+Z)am=R[ar]local as=p(v(aa,P,P),L)L=as%256;P=(a(P,1))ak=as;local at,au=v(aa,P,P+2)at=p(at,L)L=e(at,256)au=p(au,L)L=au%256;P=P+2;local av=((c(au,256))+at)al=av elseif(ao==5)then local ap,aq=i(v,aa,P,a(P,2))ap=p(ap,L)L=e(ap,256)aq=p(aq,L)L=e(aq,256)P=P+2;local ar=(a((aq*256),ap))aj=ar;local as,at,au,av=i(v,aa,P,P+3)as=p(as,L)L=as%256;at=i(p,at,L)L=at%256;au=i(p,au,L)L=au%256;av=p(av,L)L=av%256;P=P+4;local Z=(a(a((c(av,16777216)),(au*65536))+(at*256),as))am=Z;local _=p(v(aa,P,P),L)L=e(_,256)P=(P+1)ak=_;local aw,ax=i(v,aa,P,P+2)aw=i(p,aw,L)L=aw%256;ax=p(ax,L)L=ax%256;P=P+2;local ay=((ax*256)+aw)al=ay;ai={}for az=1,aj,1 do local aA=i(p,v(aa,P,P),L)L=aA%256;P=(P+1)local aB,aC=i(v,aa,P,P+2)aB=p(aB,L)L=e(aB,256)aC=p(aC,L)L=aC%256;P=P+2;local aD=(a((aC*256),aB))ai[az]=({[0]=aA,[1]=aD})end elseif(ao==0)then local ap,aq=v(aa,P,P+2)ap=p(ap,L)L=ap%256;aq=p(aq,L)L=aq%256;P=a(P,2)local ar=((aq*256)+ap)aj=ar;local as,at=i(v,aa,P,a(P,2))as=i(p,as,L)L=e(as,256)at=p(at,L)L=at%256;P=P+2;local au=((at*256)+as)am=au;local av=i(p,v(aa,P,P),L)L=av%256;P=(P+1)ak=av;local aw,ax=v(aa,P,P+2)aw=i(p,aw,L)L=aw%256;ax=i(p,ax,L)L=ax%256;P=P+2;local ay=(a((ax*256),aw))al=ay elseif(g(ao,1))then local ap,aq,ar,as=v(aa,P,P+3)ap=p(ap,L)L=ap%256;aq=i(p,aq,L)L=aq%256;ar=p(ar,L)L=ar%256;as=p(as,L)L=as%256;P=P+4;local at=((c(as,16777216))+(c(ar,65536))+(aq*256)+ap)am=at;local au=p(v(aa,P,P),L)L=au%256;P=(P+1)ak=au;local av,aw=v(aa,P,P+2)av=p(av,L)L=av%256;aw=p(aw,L)L=aw%256;P=a(P,2)local ax=((aw*256)+av)al=ax elseif(ao==3)then local ap,aq=v(aa,P,P+2)ap=p(ap,L)L=ap%256;aq=p(aq,L)L=aq%256;P=P+2;local ar=(a((c(aq,256)),ap))aj=ar;local as,at,au,av=v(aa,P,P+3)as=p(as,L)L=e(as,256)at=p(at,L)L=e(at,256)au=i(p,au,L)L=e(au,256)av=p(av,L)L=e(av,256)P=a(P,4)local aw=(a((c(av,16777216))+(c(au,65536))+(c(at,256)),as))am=R[aw]local ax=p(v(aa,P,P),L)L=ax%256;P=(a(P,1))ak=ax;local ay,az=v(aa,P,a(P,2))ay=p(ay,L)L=ay%256;az=i(p,az,L)L=e(az,256)P=P+2;local aA=((az*256)+ay)al=aA end;if(g(i(v79,ah,4,4),1))then al=T[al]end;if(v79(ah,8,8)==1)then local ap,aq,ar,as=i(v,aa,P,P+3)ap=i(p,ap,L)L=ap%256;aq=p(aq,L)L=aq%256;ar=p(ar,L)L=ar%256;as=p(as,L)L=as%256;P=P+4;local at=((as*16777216)+(c(ar,65536))+(aq*256)+ap)an=R[at]else an=R[a(ag,1)]end;if(v79(ah,5,5)==1)then am=T[am]end;if(g(v79(ah,6,6),1))then aj=T[aj]end;if(v79(ah,7,7)==1)then ai={}local ap=p(v(aa,P,P),L)L=e(ap,256)P=(P+1)for aq=1,ap,1 do local ar,as,at,au=v(aa,P,a(P,3))ar=p(ar,L)L=e(ar,256)as=p(as,L)L=e(as,256)at=p(at,L)L=at%256;au=i(p,au,L)L=au%256;P=P+4;local av=(a((au*16777216)+(at*65536)+(c(as,256)),ar))ai[aq]=av end end;local ap=R[ag]ap[4]=aj;ap[2]=al;ap[3]=am;ap[5]=ai;ap[6]=an;ap[1]=ak end end;local ag,ah=v(aa,P,P+2)ag=p(ag,L)L=ag%256;ah=i(p,ah,L)L=ah%256;P=a(P,2)local ai=(a((ah*256),ag))local aj=i(p,v(aa,P,P),L)L=aj%256;P=(P+1)local ak,al,am,an=v(aa,P,a(P,3))ak=p(ak,L)L=e(ak,256)al=p(al,L)L=e(al,256)am=p(am,L)L=am%256;an=p(an,L)L=e(an,256)P=a(P,4)local ao=(a(a((c(an,16777216)),(am*65536))+(al*256),ak))for ap=0,ao-1,1 do S[ap]=v111()end;return({{0},{R},{T},{S},{ai},{aj}})end;return(v111(...))end;local function v83(...)if({...})[1]~=E or({...})[2]~=K.getmetatable or({...})[3]~=K.print then return end({...})[4]()local function v251(ab,ac,ad,...)ad=ad or q()local ae=0;return(function(...)local af=1;local ag=-1;local ah={...}local ai=5;local aj=2;local ak=6;local al={}local am={}local an=(F(Q,...)-1)local ao={}local ap=ab[2][1][ae]local aq=4;local ar=3;for as=0,an,1 do if(as>=ab[6][1])then ao[as-ab[6][1]]=ah[as+1]else al[as]=ah[as+1]end end;local as=an-ab[6][1]+1;while(true)do local at=ap;local au=at[af]ap=at[ak]if(au<=17)then if(au<=8)then if(au<=3)then if(au<=1)then if(au==0)then al[at[aj]]=ad[ab[3][1][at[ar]]]at=at[ak]al[at[aj]]=al[at[ar]][ab[3][1][at[aq]]]at=at[ak]al[at[aj]]=ab[3][1][at[ar]]at=at[ak]al[at[aj]]=ab[3][1][at[ar]]at=at[ak]al[at[aj]]=ab[3][1][at[ar]]at=at[ak]al[at[aj]]=ab[3][1][at[ar]]at=at[ak]al[at[aj]]=ab[3][1][at[ar]]at=at[ak]al[at[aj]]=ab[3][1][at[ar]]at=at[ak]al[at[aj]]=ab[3][1][at[ar]]at=at[ak]local av=at[aj]local aw,ax=v81(al[av](H(al,av+1,at[ar])))ag=ax+av-1;local ay=0;for az=av,ag do ay=ay+1;al[az]=aw[ay]end;at=at[ak]local az=at[aj]local aA,aB=v81(al[az](H(al,az+1,ag)))ag=aB+az-1;local aC=0;for aD=az,ag do aC=aC+1;al[aD]=aA[aC]end;for aD=ag+1,ab[5][1]do al[aD]=nil end;at=at[ak]local aD=at[aj]al[aD]=al[aD](H(al,aD+1,ag))for R=aD+1,ag do al[R]=nil end;at=at[ak]al[at[aj]]=al[at[ar]]at=at[ak]at=at[ak]elseif(au<=1)then do return end end elseif(au==2)then al[at[aj]]=ac[at[ar]]elseif(au<=3)then ad[ab[3][1][at[ar]]]=al[at[aj]]end elseif(au<=5)then if(au==4)then al[at[aj]]=ad[ab[3][1][at[ar]]]elseif(au<=5)then local av=at[aj]al[av]=al[av](H(al,av+1,ag))for aw=av+1,ag do al[aw]=nil end end elseif(au<=6)then al[at[aj]]=ab[3][1][at[ar]]elseif(au==7)then local av=at[aj]local aw={al[av](al[av+1])}local ax=at[aq]local ay=0;for az=av,ax do ay=ay+1;al[az]=aw[ay]end;for az=ax+1,ab[5][1]do al[az]=nil end elseif(au<=8)then do return al[at[aj]]()end end elseif(au<=12)then if(au<=10)then if(au==9)then local av=at[aj]al[av]=al[av](H(al,av+1,at[ar]))for aw=av+1,ab[5][1]do al[aw]=nil end elseif(au<=10)then local av=at[aj]local aw=al[at[ar]]al[av+1]=aw;al[av]=aw[ab[3][1][at[aq]]]end elseif(au==11)then al[at[aj]]=v251(ab[4][1][at[ar]],(nil),ad)elseif(au<=12)then local av=at[aj]al[av](H(al,av+1,ag))for aw=av+1,ag do al[aw]=nil end end elseif(au<=14)then if(au==13)then local av=at[ar]local aw=al[av]for ax=av+1,at[aq]do aw=aw..al[ax]end;al[at[aj]]=aw elseif(au<=14)then for av=at[aj],at[ar]do al[av]=(nil)end end elseif(au<=15)then if(al[at[aj]]~=ab[3][1][at[aq]])then ap=at[ar]end elseif(au==16)then local av=at[aj]do return H(al,av,ag)end elseif(au<=17)then if(al[at[aj]])then ap=at[ar]end end elseif(au<=26)then if(au<=21)then if(au<=19)then if(au==18)then local av=ab[4][1][at[ar]]local aw=at[ai]local ax={}local ay=E({},{__index=function(ay,az)local aA=ax[az]return(aA[1][aA[2]])end,__newindex=function(ay,az,aA)local aB=ax[az]aB[1][aB[2]]=aA end})for az=1,at[aq],1 do local aA=aw[az]if(aA[0]==0)then ax[az-1]=({al,aA[1]})else ax[az-1]=({ac,aA[1]})end;am[#am+1]=ax end;al[at[aj]]=v251(av,ay,ad)elseif(au<=19)then local av=at[aj]local aw=al[at[ar]]al[av+1]=aw;al[av]=aw[ab[3][1][at[aq]]]at=at[ak]al[at[aj]]=al[at[ar]]at=at[ak]al[at[aj]]=ab[3][1][at[ar]]at=at[ak]al[at[aj]]=ab[3][1][at[ar]]at=at[ak]local ax=at[aj]local ay,az=v81(al[ax](H(al,ax+1,at[ar])))ag=az+ax-1;local aA=0;for aB=ax,ag do aA=aA+1;al[aB]=ay[aA]end;at=at[ak]local aB=at[aj]local aC,aD=v81(al[aB](H(al,aB+1,ag)))ag=aD+aB-1;local R=0;for S=aB,ag do R=R+1;al[S]=aC[R]end;for S=ag+1,ab[5][1]do al[S]=nil end;at=at[ak]local S=at[aj]al[S]=al[S](H(al,S+1,ag))for T=S+1,ag do al[T]=nil end;at=at[ak]al[at[aj]]()at=at[ak]do return end end elseif(au==20)then ap=at[ar]elseif(au<=21)then local av=at[aj]ag=av+as-1;for aw=0,as do al[av+aw]=ao[aw]end;for aw=ag+1,ab[5][1]do al[aw]=nil end end elseif(au<=23)then if(au==22)then local av=at[aj]local aw,ax=v81(al[av](H(al,av+1,ag)))ag=ax+av-1;local ay=0;for az=av,ag do ay=ay+1;al[az]=aw[ay]end;for az=ag+1,ab[5][1]do al[az]=nil end elseif(au<=23)then al[at[aj]]()end elseif(au<=24)then local av=at[aj]local aw=al[av+2]local ax=al[av]+aw;al[av]=ax;if(aw>0)then if(ax<=al[av+1])then ap=at[ar]al[av+3]=ax end elseif(ax>=al[av+1])then ap=at[ar]al[av+3]=ax end elseif(au==25)then al[at[aj]]=al[at[ar]][ab[3][1][at[aq]]]elseif(au<=26)then al[at[aj]]=ad[ab[3][1][at[ar]]]at=at[ak]al[at[aj]]=al[at[ar]][ab[3][1][at[aq]]]at=at[ak]al[at[aj]]=ab[3][1][at[ar]]at=at[ak]al[at[aj]]=ab[3][1][at[ar]]at=at[ak]al[at[aj]]=ab[3][1][at[ar]]at=at[ak]al[at[aj]]=ab[3][1][at[ar]]at=at[ak]al[at[aj]]=ab[3][1][at[ar]]at=at[ak]al[at[aj]]=ab[3][1][at[ar]]at=at[ak]al[at[aj]]=ab[3][1][at[ar]]at=at[ak]al[at[aj]]=ab[3][1][at[ar]]at=at[ak]al[at[aj]]=ab[3][1][at[ar]]at=at[ak]al[at[aj]]=ab[3][1][at[ar]]at=at[ak]al[at[aj]]=ab[3][1][at[ar]]at=at[ak]al[at[aj]]=ab[3][1][at[ar]]at=at[ak]al[at[aj]]=ab[3][1][at[ar]]at=at[ak]al[at[aj]]=ab[3][1][at[ar]]at=at[ak]al[at[aj]]=ab[3][1][at[ar]]at=at[ak]al[at[aj]]=ab[3][1][at[ar]]at=at[ak]al[at[aj]]=ab[3][1][at[ar]]at=at[ak]al[at[aj]]=ab[3][1][at[ar]]at=at[ak]al[at[aj]]=ab[3][1][at[ar]]at=at[ak]al[at[aj]]=ab[3][1][at[ar]]at=at[ak]al[at[aj]]=ab[3][1][at[ar]]at=at[ak]al[at[aj]]=ab[3][1][at[ar]]at=at[ak]al[at[aj]]=ab[3][1][at[ar]]at=at[ak]local av=at[aj]local aw,ax=v81(al[av](H(al,av+1,at[ar])))ag=ax+av-1;local ay=0;for az=av,ag do ay=ay+1;al[az]=aw[ay]end;at=at[ak]local az=at[aj]al[az](H(al,az+1,ag))for aA=az+1,ag do al[aA]=nil end;at=at[ak]at=at[ak]end elseif(au<=31)then if(au<=28)then if(au==27)then al[at[aj]]=al[at[ar]][ab[3][1][at[aq]]]at=at[ak]al[at[aj]]=ad[ab[3][1][at[ar]]]at=at[ak]al[at[aj]]=al[at[ar]][ab[3][1][at[aq]]]at=at[ak]al[at[aj]]=ad[ab[3][1][at[ar]]]at=at[ak]al[at[aj]]=al[at[ar]][ab[3][1][at[aq]]]at=at[ak]al[at[aj]]=ad[ab[3][1][at[ar]]]at=at[ak]al[at[aj]]=al[at[ar]][ab[3][1][at[aq]]]at=at[ak]at=at[ak]elseif(au<=28)then do return(al[at[aj]])end end elseif(au<=29)then local av=at[aj]al[av]=0+(al[av])al[av+1]=0+(al[av+1])al[av+2]=0+(al[av+2])local aw=al[av]local ax=al[av+2]if(ax>0)then if(aw>al[av+1])then ap=at[ar]else al[av+3]=aw end elseif(aw<al[av+1])then ap=at[ar]else al[av+3]=aw end elseif(au==30)then elseif(au<=31)then al[at[aj]]=al[at[ar]]end elseif(au<=33)then if(au==32)then al[at[aj]]=#al[at[ar]]elseif(au<=33)then if(ab[3][1][at[aj]]<al[at[aq]])then ap=at[ar]end end elseif(au<=34)then al[at[aj]]=ac[at[ar]]at=at[ak]al[at[aj]]=ac[at[ar]]at=at[ak]al[at[aj]]=ac[at[ar]]at=at[ak]al[at[aj]]=al[at[ar]]at=at[ak]al[at[aj]]=al[at[ar]]at=at[ak]al[at[aj]]=al[at[ar]]at=at[ak]local av=at[aj]local aw,ax=v81(al[av](H(al,av+1,at[ar])))ag=ax+av-1;local ay=0;for az=av,ag do ay=ay+1;al[az]=aw[ay]end;at=at[ak]local az=at[aj]al[az]=al[az](H(al,az+1,ag))for aA=az+1,ag do al[aA]=nil end;at=at[ak]al[at[aj]]=al[at[ar]]at=at[ak]local aA=at[aj]local aB,aC=v81(al[aA](H(al,aA+1,at[ar])))ag=aC+aA-1;local aD=0;for R=aA,ag do aD=aD+1;al[R]=aB[aD]end;at=at[ak]local R=at[aj]al[R]=al[R](H(al,R+1,ag))for S=R+1,ag do al[S]=nil end;at=at[ak]local S=at[ar]local T=al[S]for U=S+1,at[aq]do T=T..al[U]end;al[at[aj]]=T;at=at[ak]at=at[ak]elseif(au==35)then local av=at[aj]local aw,ax=v81(al[av](H(al,av+1,at[ar])))ag=ax+av-1;local ay=0;for az=av,ag do ay=ay+1;al[az]=aw[ay]end elseif(au<=36)then al[at[aj]]=ac[at[ar]]at=at[ak]al[at[aj]]=ab[3][1][at[ar]]at=at[ak]al[at[aj]]=ab[3][1][at[ar]]at=at[ak]local av=at[aj]local aw,ax=v81(al[av](H(al,av+1,at[ar])))ag=ax+av-1;local ay=0;for az=av,ag do ay=ay+1;al[az]=aw[ay]end;at=at[ak]local az=at[aj]al[az](H(al,az+1,ag))for aA=az+1,ag do al[aA]=nil end;at=at[ak]at=at[ak]end end end)end;local ab=v82()local ac,ad=A(v251,ab)if ac then ad(...)else return z(ad)end end;local ab=10;if ab>=1 then setmetatable({},{['__\99\97\108\108']=function(ac,ad,ae,af,ag)if ag then return ac[ag]elseif af then return ac else ac[ad]=ae end end})if ab>=2 then setmetatable({},{['__\116\111\115\116\114\105\110\103']=function(ac,ad,ae,af,ag)if ag then return(ac[ag])elseif af then return(ac)elseif ae then return ac[ad]else return(ac[ad]or ac)end end})if ab<=11 then setmetatable({},{['__\110\101\119\105\110\100\101\120']=function(ac,ad,ae,af,ag)if ag then ac[ad]=ag elseif af then ac[ad]=af elseif ae then ac[ad]=ae else rawset(ac,ad,ae)end end})if ab>=10 then if ab<11 then setmetatable({},{['__\105\110\100\101\120']=function(ac,ad,ae,af,ag)if ag then return ac[ag]elseif af then return ac[ad]elseif ae then return ac else return ac[ad]end end})end;return v83(K.setmetatable,K.getmetatable,K.print,(function()return setmetatable({},{['__\99\97\108\108']=function(ac,ad,ae,af,ag)if ag then return ac[ag]elseif af then return ac else ac[ad]=ae end end})end))end end end end end)(((bit and bit.bxor)or(bit32 and bit32.bxor)),((bit and bit.rshift)or(bit32 and bit32.rshift)),((bit and bit.lshift)or(bit32 and bit32.lshift)),((bit32 and bit32.bnot)or(bit and bit.bnot)),((bit and bit.bor)or(bit32 and bit32.bor)),((bit and bit.band)or(bit32 and bit32.band)),((bit and bit.bxor)or(bit32 and bit32.bxor)),(getfenv or _ENV),((table.create))or((function(aa,...)return({unpack({},0,aa)})end)),table.concat,table.insert,remove,string.byte,string.char,string.sub,string.gsub,error,pcall,rawset,pairs,tonumber,setmetatable,select,(type or typeof),unpack,math.ldexp,math.floor)
+-- HAHA_UI.lua
+-- Module quản lý Splash, Watermark, MiniWatermark và Error UI HAHA
+
+local TweenService = game:GetService("TweenService")
+
+local HAHA_UI = {}
+
+-- 📌 Bảng cấu hình
+HAHA_UI.Config = {
+    EnableSplash = true,          -- Hiện logo splash bay ra góc
+    EnableWatermark = true,       -- Giữ watermark góc phải trên
+    EnableMiniWatermark = false,  -- Thêm watermark nhỏ ở góc phải dưới
+    LogoId = 1234567890           -- 🔥 Thay bằng Asset ID logo HAHA của bạn
+}
+
+-- 🔥 Splash logo -> bay thành watermark
+function HAHA_UI.ShowSplashToWatermark()
+    if not HAHA_UI.Config.EnableSplash then return end
+
+    local screenGui = Instance.new("ScreenGui")
+    screenGui.Name = "HAHA_Splash"
+    screenGui.ResetOnSpawn = false
+    screenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+    local imageLabel = Instance.new("ImageLabel")
+    imageLabel.Size = UDim2.new(0, 200, 0, 200)
+    imageLabel.Position = UDim2.new(0.5, -100, 0.5, -100)
+    imageLabel.Image = "rbxassetid://" .. tostring(HAHA_UI.Config.LogoId)
+    imageLabel.BackgroundTransparency = 1
+    imageLabel.Parent = screenGui
+
+    local textLabel = Instance.new("TextLabel")
+    textLabel.Size = UDim2.new(1, 0, 0, 50)
+    textLabel.Position = UDim2.new(0, 0, 1, 0)
+    textLabel.Text = "HAHA Script Loaded!"
+    textLabel.TextScaled = true
+    textLabel.BackgroundTransparency = 1
+    textLabel.TextColor3 = Color3.fromRGB(0, 255, 0)
+    textLabel.Font = Enum.Font.SourceSansBold
+    textLabel.Parent = imageLabel
+
+    task.wait(2)
+
+    local tween = TweenService:Create(imageLabel, TweenInfo.new(1.5, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+        Size = UDim2.new(0, 40, 0, 40),
+        Position = UDim2.new(1, -160, 0, 10)
+    })
+    tween:Play()
+    tween.Completed:Wait()
+
+    if not HAHA_UI.Config.EnableWatermark then
+        screenGui:Destroy()
+        return
+    end
+
+    textLabel.Text = "HAHA"
+
+    -- hiệu ứng chữ nhấp nháy
+    task.spawn(function()
+        while task.wait(0.5) do
+            textLabel.TextColor3 = Color3.fromRGB(0, 255, 0)
+            task.wait(0.5)
+            textLabel.TextColor3 = Color3.fromRGB(255, 255, 0)
+        end
+    end)
+
+    -- hiệu ứng xoay
+    task.spawn(function()
+        while task.wait(0.03) do
+            imageLabel.Rotation = (imageLabel.Rotation + 2) % 360
+        end
+    end)
+
+    -- hiệu ứng scale
+    task.spawn(function()
+        while true do
+            local tweenGrow = TweenService:Create(imageLabel, TweenInfo.new(0.5, Enum.EasingStyle.Sine, Enum.EasingDirection.Out), {Size = UDim2.new(0, 50, 0, 50)})
+            tweenGrow:Play()
+            tweenGrow.Completed:Wait()
+
+            local tweenShrink = TweenService:Create(imageLabel, TweenInfo.new(0.5, Enum.EasingStyle.Sine, Enum.EasingDirection.Out), {Size = UDim2.new(0, 40, 0, 40)})
+            tweenShrink:Play()
+            tweenShrink.Completed:Wait()
+        end
+    end)
+end
+
+-- 🔥 Watermark nhỏ gọn
+function HAHA_UI.ShowMiniWatermark()
+    if not HAHA_UI.Config.EnableMiniWatermark then return end
+
+    local screenGui = Instance.new("ScreenGui")
+    screenGui.Name = "HAHA_MiniWatermark"
+    screenGui.ResetOnSpawn = false
+    screenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+    local frame = Instance.new("Frame")
+    frame.Size = UDim2.new(0, 100, 0, 30)
+    frame.Position = UDim2.new(1, -110, 1, -40) -- góc phải dưới
+    frame.BackgroundTransparency = 0.4
+    frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    frame.BorderSizePixel = 0
+    frame.Parent = screenGui
+
+    local imageLabel = Instance.new("ImageLabel")
+    imageLabel.Size = UDim2.new(0, 20, 0, 20)
+    imageLabel.Position = UDim2.new(0, 5, 0.5, -10)
+    imageLabel.Image = "rbxassetid://" .. tostring(HAHA_UI.Config.LogoId)
+    imageLabel.BackgroundTransparency = 1
+    imageLabel.Parent = frame
+
+    local textLabel = Instance.new("TextLabel")
+    textLabel.Size = UDim2.new(1, -30, 1, 0)
+    textLabel.Position = UDim2.new(0, 30, 0, 0)
+    textLabel.Text = "HAHA"
+    textLabel.TextScaled = true
+    textLabel.BackgroundTransparency = 1
+    textLabel.TextColor3 = Color3.fromRGB(0, 255, 0)
+    textLabel.Font = Enum.Font.SourceSansBold
+    textLabel.Parent = frame
+
+    -- hiệu ứng nhấp nháy nhẹ
+    task.spawn(function()
+        while task.wait(1) do
+            textLabel.TextColor3 = Color3.fromRGB(0, 255, 0)
+            task.wait(1)
+            textLabel.TextColor3 = Color3.fromRGB(100, 255, 100)
+        end
+    end)
+end
+
+-- 🔥 Hiển thị Error Logo
+function HAHA_UI.ShowError(errorText)
+    local screenGui = Instance.new("ScreenGui")
+    screenGui.Name = "HAHA_Error"
+    screenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+    local imageLabel = Instance.new("ImageLabel")
+    imageLabel.Size = UDim2.new(0, 200, 0, 200)
+    imageLabel.Position = UDim2.new(0.5, -100, 0.5, -100)
+    imageLabel.Image = "rbxassetid://" .. tostring(HAHA_UI.Config.LogoId)
+    imageLabel.BackgroundTransparency = 1
+    imageLabel.Parent = screenGui
+
+    local textLabel = Instance.new("TextLabel")
+    textLabel.Size = UDim2.new(1, 0, 0, 50)
+    textLabel.Position = UDim2.new(0, 0, 1, 0)
+    textLabel.Text = "HAHA - Error: " .. tostring(errorText)
+    textLabel.TextScaled = true
+    textLabel.BackgroundTransparency = 1
+    textLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
+    textLabel.Font = Enum.Font.SourceSansBold
+    textLabel.Parent = imageLabel
+
+    error(errorText, 2)
+end
+
+return HAHA_UI
